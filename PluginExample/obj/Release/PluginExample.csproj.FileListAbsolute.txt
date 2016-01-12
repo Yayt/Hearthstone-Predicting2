@@ -1,0 +1,6 @@
+E:\Users\Kevin\Google Drive\Random Projects\hdt-plugin-example-master\PluginExample\bin\Release\card.png
+E:\Users\Kevin\Google Drive\Random Projects\hdt-plugin-example-master\PluginExample\bin\Release\PluginExample.dll
+E:\Users\Kevin\Google Drive\Random Projects\hdt-plugin-example-master\PluginExample\bin\Release\PluginExample.pdb
+E:\Users\Kevin\Google Drive\Random Projects\hdt-plugin-example-master\PluginExample\obj\Release\PluginExample.csprojResolveAssemblyReference.cache
+E:\Users\Kevin\Google Drive\Random Projects\hdt-plugin-example-master\PluginExample\obj\Release\PluginExample.dll
+E:\Users\Kevin\Google Drive\Random Projects\hdt-plugin-example-master\PluginExample\obj\Release\PluginExample.pdb
