@@ -2300,7 +2300,6 @@ namespace PluginExample
 			_info = new HearthstoneTextBlock();
 			_info.Text = "";
 			_info.FontSize = 20;
-            _info.PreviewKeyDown += new KeyEventHandler(button1_KeyDown);
 
             // Add the text block as a child of the border element
             //blockBorder.Child = _info;
@@ -2331,17 +2330,6 @@ namespace PluginExample
 			GameEvents.OnGameStart.Add(NewGame);
             GameEvents.OnOpponentPlay.Add(HandInfo);
         }
-
-        // By default, KeyDown does not fire for the ARROW keys
-        private static void button1_KeyDown(object sender, KeyEventArgs e)
-            {
-            MessageBox.Show("Ctrl+Alt+O: magic!");
-            if (e.Key == Key.Return)
-                {
-                    System.Diagnostics.Process.Start(URLToOpen);
-                }
-                e.Handled = true;
-            }
 
         // Set the player controller id, used to tell who controls a particular
         // entity (card, health etc.)

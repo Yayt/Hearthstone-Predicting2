@@ -10,7 +10,7 @@ namespace PluginExample
     {
 		public string Author
 		{
-			get { return "Name"; }
+			get { return "/u/DeLiri0us"; }
 		}
 
 		public string ButtonText
@@ -20,7 +20,7 @@ namespace PluginExample
 
 		public string Description
 		{
-			get { return "Description"; }
+			get { return "Press F1 to open Hearthpwn and search for all the cards that your opponent has played."; }
 		}
 
 		public MenuItem MenuItem
@@ -30,7 +30,7 @@ namespace PluginExample
 
 		public string Name
 		{
-			get { return "PluginExample"; }
+			get { return "OpponentDeckToHearthPwn"; }
 		}
 
 		public void OnButtonPress()
